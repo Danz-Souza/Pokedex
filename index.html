@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="src/main.css">
+    <link rel="icon" href="src/favicons/favicon-16x16.png">
+
+    <script defer src="js/script.js"></script>
+
+    <title>Pokedex</title>
+</head>
+
+<body>
+    <main>
+        <div id="topo">
+            <img src="/src/img/pokemon.png" alt="Pokedex">
+            <h2 class="criador">by: Danz Souza</h2>
+        </div>
+
+        <form class="form">
+            <input type="search" class="inputSearch" placeholder="Name or Number" required>
+        </form>
+
+        <div id="pokedex">
+            <!-- <img src="src/img/pokedex.png" alt="pokedex" class="pokedeximg"> -->
+            <section class="card">
+                <section class="topo">
+                    <h1 class="pokemonData">
+                        <span class="hashtag">#</span>
+                        <span class="pokemonNumber"></span>
+                    </h1>
+                    <h1 class="pokemonName">
+                        <span class=""></span>
+                    </h1>
+                    <span class="tipo" id="tipoNone">
+                        <p class="tipo0"></p>
+                        <p class="tipo1"></p>
+                    </span>
+                    <img src="" alt="pokemon" class="pokemonImage">
+                </section>
+                <section class="infos">
+                    <section class="status">
+                        <h1>
+                            Status
+                        </h1>
+                        <p id="hp"></p>
+                        <p id="atk"></p>
+                        <p id="def"></p>
+                        <p id="sAtk"></p>
+                        <p id="sDef"></p>
+                        <p id="speed"></p>
+                    </section>
+                    <section class="habilidades">
+                        <h1>Habilidades</h1>
+                        <p id="hab"></p>
+                    </section>
+                </section>
+                
+            </section>
+            
+            <!-- <section class="btnpoke">
+                <ul data-js="btnpokejs" class="btnpokejs"></ul>
+            </section> -->
+        </div>
+    </main>
+</body>
+</html>

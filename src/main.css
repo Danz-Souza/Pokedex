@@ -1,0 +1,175 @@
+@import url('https://fonts.googleapis.com/css2?family=Oxanium:wght@300;400;500;600;700&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Oxanium', cursive;
+}
+
+body {
+    text-align: center;
+    background-color: #3E54AD;
+    min-height: 100vh;
+}
+
+main{
+    display: inline-block;
+    margin-top: 2%;
+    padding: 15px;
+    position: relative;
+}
+
+.pokedeximg{
+    width: 100%;
+    max-width: 425px;
+}
+
+.pokemonImage{
+    position: absolute;
+    bottom: 30%;
+    left: 53%;
+    transform: translate(-63%, 20%);
+    height: 18%;
+}
+
+.pokemonData{
+    position: absolute;
+    font-weight: 600;
+    color: #aaa;
+    top: 44%;
+    right: 20%;
+    font-size: clamp(8px, 5vw, 25px);
+}
+
+.pokemonName{
+    text-align: start;
+    padding: 3% 0 0 5%;
+    font-size: clamp(8px, 5vw, 25px);
+    font-weight: bold;
+    color: #fff;
+    text-transform: capitalize;
+}
+
+.pokemonNumber,.hashtag{
+    color: #fff;
+}
+
+.form{
+    padding: 1%;
+    border:none;
+    width:100%;
+}
+
+.inputSearch{
+    width: 100%;
+    padding: 4%;
+    outline: none;
+    border: 2px solid #FAC705;
+    background-color: #FAC705;
+    border-radius: 15px;
+    font-weight: 600;
+    color: #3a444d;
+    font-size: clamp(8px, 5vw, 1rem);
+}
+
+#topo{
+    display:flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.criador{
+    color: #fff;
+    margin-top: -50px;
+}
+
+#pokedex{
+    display: flex;
+    justify-content: center;
+    margin-top: 50px;
+    flex-direction: row;
+}
+
+.card{
+    display: flex;
+    flex-direction: column;
+    top: 0;
+    color: #fff;
+    width: 400px;
+    
+}
+
+.topo{
+    height: 16rem;
+    background-color: #7CBEB3;
+    border-radius: 15px 15px 0 0;
+    
+}
+
+.infos{
+    display: flex;
+    flex-direction: row;
+    padding-top: 3rem;
+    justify-content: space-evenly;
+    height: 16rem;
+    color: #000000;
+    background-color: #fff;
+    border-radius: 0 0 15px 15px;
+    text-align: start;
+}
+
+
+
+.infos h1, .habilidades h1{
+    font-size: 1.3rem;
+    border-bottom: 1px solid #000000;
+}
+
+.status p, .habilidades p{
+    padding-top: 0.2rem;
+} 
+
+.tipo{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 20px;
+    max-width: 90px;
+    background: #0000007a;
+    margin-left: 20px;
+    border-radius: 50px;
+}
+
+
+.btnpoke{
+    display: flex;
+    
+}
+
+.btnpoke img{
+    max-width: 43px;
+    margin-left: 15px;
+}
+
+.btnpoke button{
+    display: flex;
+    align-items: center;
+    margin-left: 50px;
+    padding: 15px 10px 15px 10px;
+    border-radius: 40px;
+    font-size: 24px;    
+    justify-content: space-between;
+    background-color: #6B727A;
+    border: 2px solid #fff;
+    color: #fff;  
+}
+
+.btnpoke button:active{
+    background-color: #FA6668;
+}
+
+.btnpoke span{
+    margin: 0 15px 0 15px;
+}
